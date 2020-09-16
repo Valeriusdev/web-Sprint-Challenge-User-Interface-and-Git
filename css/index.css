@@ -144,3 +144,85 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#box1
+{
+    background: teal;
+}
+#box2
+{
+    background: gold;
+}
+#box3
+{
+    background: cadetblue;
+}
+#box4
+{
+    background: coral;
+}
+#box5
+{
+    background: crimson;
+}
+#box6
+{
+    background: forestgreen;
+}
+#box7
+{
+    background: darkorchid;
+}
+#box8
+{
+    background: hotpink;
+}
+#box9
+{
+    background: indigo;
+}
+#box10
+{
+    background: dodgerblue;
+}
+
+.buttons{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around 
+}
+
+a{
+    width: 50px;
+    padding: 8px;
+    color: black;
+    text-decoration: none;   
+}
+
+.learnmorebuttons{
+    width: 140px;
+    padding: 8px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    margin: 30px 0px;
+    color: black;
+    text-decoration: none;
+    display: block;      
+}
+
+.containeraboutpage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
+    justify-content: space-between; 
+}
+
+.contentabout{
+    width: 35%;
+}
+
+.contentabout img{
+width: 100%;
+}
